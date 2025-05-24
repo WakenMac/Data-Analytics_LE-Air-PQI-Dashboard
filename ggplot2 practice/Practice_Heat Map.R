@@ -32,24 +32,3 @@ View(world_aqi)
 
 # Generates the country heat map
 # Options have specific color maps from A to H
-ggplot(data = world_aqi) +
-    geom_sf(aes(
-      fill = Average_AQI,
-    ), color = "black", size = 0.1) +
-    scale_fill_viridis_c(option = "H", name = "Average AQI", na.value = "white") +
-    labs(
-      title = "Global Air Quality Index Distribution by Country",
-      subtitle = "Aggregated average AQI from selected cities"
-    ) +
-    theme_minimal() +
-    theme(
-      plot.title = element_text(hjust = 0.5, face = "bold"),
-      plot.subtitle = element_text(hjust = 0.5),
-      legend.position = "right",
-      axis.text = element_blank(),
-      axis.ticks = element_blank(),
-      panel.grid.major = element_blank(),
-      panel.grid.minor = element_blank(),
-      panel.background = element_rect(fill = "lightgray", color = NA),
-      plot.background = element_rect(fill = "white", color = NA)
-    )
