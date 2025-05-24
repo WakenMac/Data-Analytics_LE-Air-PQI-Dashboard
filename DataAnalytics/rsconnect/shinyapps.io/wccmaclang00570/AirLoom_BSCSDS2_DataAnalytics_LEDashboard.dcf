@@ -1,0 +1,12 @@
+name: AirLoom_BSCSDS2_DataAnalytics_LEDashboard
+title: AirLoom_BSCSDS2_DataAnalytics_LEDashboard
+username: wccmaclang00570
+account: wccmaclang00570
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 14811986
+bundleId: 10334142
+url: https://wccmaclang00570.shinyapps.io/AirLoom_BSCSDS2_DataAnalytics_LEDashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
